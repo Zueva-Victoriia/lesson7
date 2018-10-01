@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="здесь идет описание о чем страница. для каждой страницы разное">
+	<meta name="keywords" content="здесь идую ключевые слова через запятую">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		
+		html{
+			margin-left: 250px;
+		}
+		body{
+			max-width: 500px;
+			margin: 0 auto;
+			
+
+		}
+
+		img{
+			display: block; 
+			width: 350px;
+			margin: 10px auto;
+
+		}
+
+		.img1{
+			width: 350px;
+			height: 350px;
+			background-image: url(image/b2.jpg);
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 100px;
+			left: -350px;
+			}
+		.img2{
+			width: 350px;
+			height: 350px;
+			background-image: url(image/b3.jpg);
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 100px;
+			right: -350px;
+			}
+		.img3{
+			width: 350px;
+			height: 350px;
+			background-image: url(image/b4.jpg);
+			background-repeat: no-repeat;
+			position: absolute;
+			bottom: 100px;
+			left: -350px;
+			
+			}
+
+
+
+
+
+
+		header{
+			width: 100%;
+			min-height: 150px;
+			background-image: url(image/820028.JPG);
+			background-repeat: no-repeat;
+			background-position: top center;
+			background-size: cover;
+		}
+
+		/*создание ребенка*/
+
+		span{
+			width: 150px;
+			height: 150px;
+			background-image: url(image/mpic2.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: absolute;
+			top: 0;
+			right: -160px;
+
+		}
+		p{
+			position: relative;
+
+
+		}
+
+		@media (max-width: 320px){
+
+			body{
+				max-width: 100%;
+			}
+			header{
+				min-height: 30px;
+			}
+			h1{
+				font-size: 16px;
+				color: red;	
+			}
+			
+			p{
+				font-size: 11px;
+				line-height: 16px;
+				background-color: #B9F4F2;
+
+			}
+			div{
+				width: 100px;
+				height: 100px;
+				background-color: #7611F4;
+				display: none; /*скрыть информацию*/
+			}
+		}
+	
+		@media (min-width: 321px) and (max-width: 768px){
+
+			h1{
+				font-size: 20px;
+				color: yellowgreen;
+			}
+
+			header{
+				min-height: 50px;
+			}
+			
+			p{
+				font-size: 16px;
+				line-height: 22px;
+				background-color: #F9D8EA;
+
+			}
+			div{
+				width: 200px;
+				height: 200px;
+				background-color: #E3F6AE;
+			}
+
+
+		}
+		@media (min-width: 769px) and (max-width: 960px){
+				h1{
+				font-size: 28px;
+				color: #0811C4;
+			}
+			
+			p{
+				font-size: 26px;
+				line-height: 28px;
+				background-color: #F8ABB2;
+
+			}
+			div{
+				width: 400px;
+				height: 400px;
+				background-color: #DCFB86;
+			}
+
+
+
+		}
+		@media (min-width: 961px){
+
+			h1{
+				font-size: 34px;
+				color: #03124A;
+			}
+			
+			p{
+				font-size: 34px;
+				line-height: 30px;
+				background-color: #B0B9F1;
+
+			}
+			div{
+				width: 600px;
+				height: 600px;
+				background-color: #90F6BE;
+			}
+
+		}
+		
+	</style>
+
+
+</head>
+
+<body>
+	<header>
+			
+
+
+	</header>
+
+
+	<h1>Заглавие</h1>
+
+	<p >
+		<img src="image/b3.jpg" alt="">
+		
+		<span>
+		
+		</span>
+		<span class="img1">
+			
+		</span>
+		<span class="img2">
+			
+
+		</span>
+		<span class="img3">
+			
+
+		</span>
+
+
+		Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+		
+	</p>
+
+
+	<p>
+		<img src="image/b3.jpg" alt="">
+		<span>
+			
+
+
+
+		</span>
+
+
+		Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+		
+
+	</p>
+	<p>
+		<img src="image/b4.jpg" alt="">
+		<span>
+			
+
+
+
+		</span>
+
+
+		Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+		
+
+	</p>
+	<p>
+
+		<img src="image/b5.jpg" alt="">
+		<span>
+			
+
+
+
+		</span>
+
+
+		Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+		
+
+	</p>
+
+	<div>
+		<img src="image/b20.jpg" alt="">
+		
+
+	</div>
+
+
+	
+</body>
+
+</html>
